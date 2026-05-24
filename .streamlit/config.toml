@@ -1,0 +1,15 @@
+[server]
+# Streamlit Cloud auto-detects the entry point, but we set it explicitly
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#2563eb"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#161a23"
+textColor = "#e0e0e0"
+font = "sans serif"
